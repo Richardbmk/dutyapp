@@ -27,7 +27,7 @@ SECRET_KEY = 'j6n2201q*-=qwa6d6hj44qoit@01%z@4e5_gje&yxjamh$9v5b'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['rick-dutyapp.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['rick-dutyapp.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
