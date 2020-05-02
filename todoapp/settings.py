@@ -27,7 +27,7 @@ SECRET_KEY = 'j6n2201q*-=qwa6d6hj44qoit@01%z@4e5_gje&yxjamh$9v5b'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['rick-dutyapp.herokuapp.com/', 'localhost']
 
 
 # Application definition
@@ -143,3 +143,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
